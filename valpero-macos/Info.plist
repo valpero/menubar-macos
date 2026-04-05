@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Hide Dock icon — this is a menu bar only app -->
+	<key>LSUIElement</key>
+	<true/>
+
+	<key>CFBundleName</key>
+	<string>Valpero</string>
+
+	<key>CFBundleDisplayName</key>
+	<string>Valpero</string>
+
+	<key>CFBundleIdentifier</key>
+	<string>com.valpero.menubar</string>
+
+	<key>CFBundleVersion</key>
+	<string>1</string>
+
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+
+	<key>NSHighResolutionCapable</key>
+	<true/>
+
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2025 Valpero. All rights reserved.</string>
+
+	<!-- Only allow HTTPS connections (security best practice) -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+	</dict>
+</dict>
+</plist>
